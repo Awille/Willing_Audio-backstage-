@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>circle</title>
+</head>
+<script>
+    var i=0;
+    var pos="";
+    function getMousePos(event) {
+        var e = event || window.event;
+        pos+=e.clientX+","+e.clientY+"\n";
+        i++;
+        if(i==300) alert(pos);
+    }
+</script>
+<body>
+<div style="width:500px; height: 500px; border: 1px blue solid;" onclick="getMousePos(event)">
+
+</div>
+</body>
+</html>

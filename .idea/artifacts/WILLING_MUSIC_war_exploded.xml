@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="WILLING_MUSIC:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/WILLING_MUSIC_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="WILLING_MUSIC/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WILLING_MUSIC" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../gson-2.8.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../java2/code/mysql-connector-java-5.1.42-bin.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../JSP2/jar/commons-fileupload-1.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../JSP2/jar/commons-io-1.4.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
